@@ -77,16 +77,13 @@ section{
     filter: blur(0);
     transition: all 1s;
 }
-@keyframes scaleDelayed {
-    0% {
-        transform: scale(1)
-    }
-
-    50% {
-        transform: scale(1.1)
-    }
-
-    100% {
-        transform: scale(1)
-    }
+img.icons{
+    width: 130px;
+}
+.container_icons {
+    display: flex;
+    flex-wrap: wrap;
+}
+a{
+    color: white;
 }
